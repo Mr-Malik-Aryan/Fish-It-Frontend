@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  color: white;
+ 
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body{
+  background: #16162E;  /* fallback for old browsers */
+  ::-webkit-scrollbar:no-button;
+  backdrop-filter:blur(30px) ;   
+  backdrop-filter: opacity(10%);
+}
+
+
